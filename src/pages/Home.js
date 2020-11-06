@@ -1,5 +1,3 @@
-/* eslint-disable no-console */
-/* eslint-disable no-use-before-define */
 import React, { useContext } from 'react';
 import { useQuery } from '@apollo/client';
 import { Grid, Transition } from 'semantic-ui-react';

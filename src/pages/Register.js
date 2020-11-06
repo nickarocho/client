@@ -1,5 +1,3 @@
-/* eslint-disable react/prop-types */
-/* eslint-disable no-use-before-define */
 import gql from 'graphql-tag';
 import { useMutation } from '@apollo/client';
 import React, { useContext, useState } from 'react';

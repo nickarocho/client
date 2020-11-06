@@ -1,4 +1,3 @@
-/* eslint-disable no-console */
 import React, { useReducer, createContext } from 'react';
 import jwtDecode from 'jwt-decode';
 
@@ -57,7 +56,6 @@ function AuthProvider(props) {
     dispatch({ type: 'LOGOUT' });
   }
 
-  // eslint-disable-next-line react/jsx-props-no-spreading
   return <AuthContext.Provider value={{ user: state.user, login, logout }} {...props} />;
 }
 

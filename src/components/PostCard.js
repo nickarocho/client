@@ -1,4 +1,3 @@
-/* eslint-disable no-console */
 import React, { useContext } from 'react';
 import { Card, Icon, Label, Image, Button } from 'semantic-ui-react';
 import moment from 'moment';
@@ -9,7 +8,6 @@ import LikeButton from './LikeButton';
 import DeleteButton from './DeleteButton';
 import Tooltip from '../util/Tooltip';
 
-// eslint-disable-next-line react/prop-types
 function PostCard({ post: { body, createdAt, id, username, likeCount, commentCount, likes } }) {
   const { user } = useContext(AuthContext);
 

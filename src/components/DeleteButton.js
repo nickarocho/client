@@ -1,5 +1,3 @@
-/* eslint-disable no-use-before-define */
-/* eslint-disable no-console */
 import React, { useState } from 'react';
 import gql from 'graphql-tag';
 import { useMutation } from '@apollo/client';
@@ -8,7 +6,6 @@ import Tooltip from '../util/Tooltip';
 
 import { FETCH_POSTS_QUERY } from '../util/graphql';
 
-// eslint-disable-next-line react/prop-types
 function DeleteButton({ postId, commentId, callback }) {
   const [confirmOpen, setConfirmOpen] = useState(false);
 
