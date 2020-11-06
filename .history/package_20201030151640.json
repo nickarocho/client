@@ -38,7 +38,6 @@
       "last 1 safari version"
     ]
   },
-  "proxy": "https://nickarocho.herokuapp.com/",
   "devDependencies": {
     "babel-eslint": "^10.1.0",
     "eslint": "^7.12.1",
